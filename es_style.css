@@ -19,6 +19,7 @@ body{
 	padding-left: 30px;
 	background-color: rgba(0, 0, 0, 0.9);
 	box-shadow: 5px 3px 5px rgba(0, 0, 0, 1);
+	z-index: 1000;
 }
 
 #header a:link{
@@ -29,11 +30,11 @@ body{
 }
 
 #header a:visited{
-	color: #999;
+	color: #fff;
 }
 
 #header a:hover{
-	color: #4D74E1;
+	color: #4D74E1 !important;
 }
 
 .pagecontent{
@@ -58,6 +59,7 @@ legend{
 	background-color: #fff;
 	border-radius: 10px;
 	padding: 15px;
+	margin-left: 20px;
 }
 
 #field_home{
@@ -73,20 +75,24 @@ legend{
 	width: 99vw;
 }
 
-#field_home div{
-	position: absolute;
-	top: 20vh;
-	left: 40vw;
-}
-
-#field_home div:nth-child(2){
+#field_home #logoHome{
 	position: absolute;
 	top: 20vh;
 	left: 15vw;
 }
 
+#field_home #textHome{
+	position: absolute;
+	top: 20vh;
+	left: 45vw;
+}
+
 #logoHome img{
 	width: 20vw;
+}
+
+#field_home #texthome:hover{
+	transform: scale(0.98);
 }
 
 #textHome{
