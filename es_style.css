@@ -1,6 +1,6 @@
 @font-face {
-        font-family: "chuiquifont";
-        src: url('chuiquifont.ttf');
+	font-family: "chuiquifont";
+	src: url('chuiquifont.ttf');
 }
 
 body{
@@ -17,11 +17,12 @@ body{
 	width:100%;
 	padding:5px;
 	padding-left: 30px;
-	background-color: rgba(0, 0, 0, 0.3);
-	box-shadow: 5px 3px 5px rgba(0.1, 0.1, 0.1, 1);
+	background-color: rgba(0, 0, 0, 0.9);
+	box-shadow: 5px 3px 5px rgba(0, 0, 0, 1);
 }
 
 #header a:link{
+	color: #fff;
 	text-decoration:none;
 	margin: 3px;
 	cursor: pointer;
@@ -32,7 +33,7 @@ body{
 }
 
 #header a:hover{
-	color:#eee;
+	color: #4D74E1;
 }
 
 .pagecontent{
@@ -64,7 +65,33 @@ legend{
 	text-align: center;
 	width: 95%;
 	left:0;
-	padding-top: 140px;
+	padding: 0px;
+}
+
+#field_home #img_background{
+	float: left;
+	width: 99vw;
+}
+
+#field_home div{
+	position: absolute;
+	top: 20vh;
+	left: 40vw;
+}
+
+#field_home div:nth-child(2){
+	position: absolute;
+	top: 20vh;
+	left: 15vw;
+}
+
+#logoHome img{
+	width: 20vw;
+}
+
+#textHome{
+	width: 50vw;
+	padding-top: 10vh;
 }
 
 #field_presentation{
@@ -108,7 +135,6 @@ legend{
 #field_home{
 	width:100%;
 	min-height: 450px;
-	background: url("img/DSC_0061-2.jpg") no-repeat fixed center 0px transparent;
 	background-size:100% auto;
 }
 
