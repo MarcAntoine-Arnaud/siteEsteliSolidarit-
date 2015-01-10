@@ -1,0 +1,141 @@
+@font-face {
+        font-family: "chuiquifont";
+        src: url('chuiquifont.ttf');
+}
+
+body{
+	margin: 0;
+	background-color: #000; /*#68BFCF;*/
+	color:#ddd;
+	font: normal normal normal 14px 'open sans', sans-serif;
+}
+
+#header{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	padding:5px;
+	padding-left: 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 3px 5px rgba(0.1, 0.1, 0.1, 1);
+}
+
+#header a:link{
+	text-decoration:none;
+	margin: 3px;
+	cursor: pointer;
+}
+
+#header a:visited{
+	color: #999;
+}
+
+#header a:hover{
+	color:#eee;
+}
+
+.pagecontent{
+	/*height:500px;*/
+	min-height: 500px;
+	border: none;
+	margin: 0;
+	margin-top: -40px;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: normal;
+	font-family: "chuiquifont", Helvetica, Arial, sans-serif;
+}
+
+legend{
+	color:#000;
+	font-size: 3em;
+	font-weight: normal;
+	font-family: 'Fredericka the Great';
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#field_home{
+	background-color: rgba(104, 191, 207, 0);
+	text-align: center;
+	width: 95%;
+	left:0;
+	padding-top: 140px;
+}
+
+#field_presentation{
+	background-color: #CD4B33;
+}
+
+#field_content{
+	background-color: #5AA008;
+}
+
+#field_contacter{
+	background-color: #E79820;
+}
+
+#field_mention{
+	margin-top: -100px;
+	min-height: 100px;
+	text-align: center;
+	background-color: rgba(20, 20, 20, 0.6);
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	text-shadow: 0px 0px 10px #000;
+}
+
+#logoHome{
+	max-width:20%;
+	vertical-align:middle;
+	display: inline-block;
+}
+
+#textHome{
+	vertical-align:middle;
+	font-weight:normal;
+	font-size: 3em;
+	color: #333;
+	max-width: 40%;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+#field_home{
+	width:100%;
+	min-height: 450px;
+	background: url("img/DSC_0061-2.jpg") no-repeat fixed center 0px transparent;
+	background-size:100% auto;
+}
+
+#backgroundPres{
+	width:100%;
+	min-height: 450px;
+	background: url("img/DSC_0420.jpg") no-repeat fixed center 0px transparent;
+	background-size:100% auto;
+}
+
+#backgroundContact{
+	width:100%;
+	min-height: 750px;
+	background: url("img/DSC_0241.jpg") no-repeat fixed center 0px transparent;
+	background-size:100% auto;
+}
+
+#backgroundAction{
+	width:100%;
+	min-height: 750px;
+	background: url("img/DSC_0124.jpg") no-repeat fixed center 0px transparent;
+	background-size:100% auto;
+}
+
+#backgroundFooter{
+	width:100%;
+	min-height: 750px;
+	background: url("img/DSC_0066-3.jpg") no-repeat fixed center 0px transparent;
+	background-size:100% auto;
+}
